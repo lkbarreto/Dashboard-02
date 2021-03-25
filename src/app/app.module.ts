@@ -11,6 +11,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { ContentComponent } from './content/content.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatListModule} from '@angular/material/list';
+import { DrawerComponent } from './drawer/drawer.component';
 
 
 
@@ -19,7 +22,8 @@ import { ContentComponent } from './content/content.component';
     AppComponent,
     CardComponent,
     HeaderComponent,
-    ContentComponent
+    ContentComponent,
+    DrawerComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +32,9 @@ import { ContentComponent } from './content/content.component';
     MatToolbarModule,
     MatIconModule,
     MatGridListModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatCardModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

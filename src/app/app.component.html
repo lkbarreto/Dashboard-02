@@ -1,5 +1,7 @@
 <mat-drawer-container class="example-container" >
-    <mat-drawer class="drawerContent" #drawer opened mode="side">I'm a drawer</mat-drawer>
+    <mat-drawer class="drawerContent" #drawer opened mode="side">
+    <app-drawer></app-drawer>
+    </mat-drawer>
     <mat-drawer-content>
       <mat-toolbar class="header">
         <button mat-icon-button class="icon" (click)="drawer.toggle()" aria-label="Example icon-button  menu icon">

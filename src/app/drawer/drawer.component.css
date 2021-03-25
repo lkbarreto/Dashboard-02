@@ -1,0 +1,13 @@
+.drawerContent{
+    flex-direction: column;
+    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topDrawer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}

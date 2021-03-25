@@ -1,3 +1,5 @@
-mat-grid-tile {
-    background: white;
-  }
+.card{
+  width: 20vw;
+  height: 15vh;
+  border-radius: 20px;
+}
