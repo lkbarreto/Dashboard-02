@@ -14,7 +14,8 @@ import { ContentComponent } from './content/content.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatListModule} from '@angular/material/list';
 import { DrawerComponent } from './drawer/drawer.component';
-
+import { GraphicComponent } from './graphic/graphic.component';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { DrawerComponent } from './drawer/drawer.component';
     CardComponent,
     HeaderComponent,
     ContentComponent,
-    DrawerComponent
+    DrawerComponent,
+    GraphicComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,10 @@ import { DrawerComponent } from './drawer/drawer.component';
     MatGridListModule,
     MatSidenavModule,
     MatCardModule,
-    MatListModule
+    MatListModule,
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
