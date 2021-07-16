@@ -1,8 +1,10 @@
 .container{
     background-color: #d4f0f4;
     border-radius: 30px;
+    min-height: 80vh;
     padding: 1vw;
     width: 75vw;
+    margin-bottom: 2vh;
 }
 .title{
     padding-left: 2vw;
@@ -14,4 +16,8 @@
     align-self: center;
     align-content: center;
     width: 100%;
+}
+
+.card{
+    padding-top: 10px;
 }

@@ -21,7 +21,7 @@ body{
 .content{
     display: flex;
     background-color: #B0E0E6;
-    height: 90vh;
+    min-height: 90vh;
     justify-content: center;
     align-items: center;
     padding-right: 2vw;
